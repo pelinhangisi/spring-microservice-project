@@ -6,3 +6,8 @@
     4- Notification Service : Sipariş verildikten sonra bildirim gönderebilir (e-mail gibi)
 
     * Order Service, Inventory Service ve Notification Service birbiriyle etkileşimde olacaklardır.
+    
+    
+   <hr> Projenin Diagramı : 
+    
+   ![sttt](https://user-images.githubusercontent.com/96151920/176319634-fc40477c-f40e-4304-bb74-555b03d5ed96.JPG)
