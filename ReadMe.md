@@ -7,5 +7,13 @@
 
     * Order Service, Inventory Service ve Notification Service birbiriyle etkileşimde olacaklardır.
 
+   <hr> <br>
 
- dbehwbdewndww
+ ## Projenin Diagramı : 
+    
+   ![sttt](https://user-images.githubusercontent.com/96151920/176319634-fc40477c-f40e-4304-bb74-555b03d5ed96.JPG)
+    
+    * Product Service (MongoDb)
+    * Order Service (PostgreSQL)
+    * Order Service ile Notification Service arasındaki ilişli Asenkron olacak. (RabbitMQ)
+    * Order Service ile Inverntory Service arasındaki ilişli Senkronize olacak. (PostgreSQL)
