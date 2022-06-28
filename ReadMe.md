@@ -6,3 +6,6 @@
     4- Notification Service : Sipariş verildikten sonra bildirim gönderebilir (e-mail gibi)
 
     * Order Service, Inventory Service ve Notification Service birbiriyle etkileşimde olacaklardır.
+
+
+ dbehwbdewndww
