@@ -20,8 +20,9 @@
 
 <hr> <br>
 
-* Katmanlı Mimari tabanları oluşturuldu. 
+* Product Katmanlı Mimari tabanları oluşturuldu. 
   * Model -> Product
   * Dao -> ProductRepository 
   * Dto -> ProductRequest
   * Controller -> ProductController
+  * Service -> ProductService 
