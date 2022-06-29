@@ -4,7 +4,7 @@ package com.pelinhangisi.orderservice.service;
 import com.pelinhangisi.orderservice.dao.OrderRepository;
 import com.pelinhangisi.orderservice.dto.OrderLineItemsDto;
 import com.pelinhangisi.orderservice.dto.OrderRequest;
-import com.pelinhangisi.orderservice.model.Order;
+import com.pelinhangisi.orderservice.model.Orderr;
 import com.pelinhangisi.orderservice.model.OrderLineItems;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -20,17 +20,17 @@ public class OrderService {
     private OrderRepository orderRepository;
 
     public void placeOrder(OrderRequest orderRequest){
-        Order order = new Order();
-        order.setOrderNumber(UUID.randomUUID().toString());
+        Orderr orderr = new Orderr();
+        orderr.setOrderNumber(UUID.randomUUID().toString());
 
         List<OrderLineItems> orderLineItems = orderRequest.getOrderLineItemsDtoList()
                 .stream()
                 .map(this::mapToDto)
                 .collect(Collectors.toList());
 
-        order.setOrderLineItemsList(orderLineItems);
+        orderr.setOrderLineItemsList(orderLineItems);
 
-        orderRepository.save(order);
+        orderRepository.save(orderr);
     }
 
     private OrderLineItems mapToDto(OrderLineItemsDto orderLineItemsDto) {

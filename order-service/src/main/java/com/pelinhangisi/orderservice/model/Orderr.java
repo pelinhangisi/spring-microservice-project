@@ -9,13 +9,13 @@ import lombok.Setter;
 import javax.persistence.*;
 import java.util.List;
 
-@Entity (name = "productOrder")
+@Entity
 @Table (name = "t_orders")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Order {
+public class Orderr {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

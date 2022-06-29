@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.pelinhangisi</groupId>
-    <artifactId>order-service</artifactId>
+    <artifactId>orderr-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>order-service</name>
-    <description>order-service</description>
+    <name>orderr-service</name>
+    <description>orderr-service</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
