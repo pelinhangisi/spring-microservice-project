@@ -65,13 +65,17 @@ GET methodu ile gönderdiğimiz ürüne id'si ile birlikte ulaşabiliyoruz.
 ## ORDER-SERVICE
 
 * OrderService İçin Katmanlı Mimari tabanları oluşturuldu. 
-  * Model -> Order
+  * Model -> Order - OrderLineItems
   * Dao -> OrderRepository 
-  * Dto -> OrderRequest
+  * Dto -> OrderRequest - OrderLineItemsDto
   * Controller -> OrderController
   * Service -> OrderService 
 
 <hr><br>
+
+    OrderService kısmında katmanlı mimarimizi oluşturduktan sonra application.properties kısmımızı düzenledik. 
+    Aynı proje içinde farklı modüllerde çalıştığımız için ilk etapta server.port kısmında localhost port değişikliği
+    yapıp, akabinde burda PostgreSQL kullanacağımız için bununla alakalı properties eklentilerimizi yaptık.
 
 
 
