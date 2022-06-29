@@ -72,8 +72,9 @@ GET methodu ile gönderdiğimiz ürüne id'si ile birlikte ulaşabiliyoruz.
   * Service -> OrderService 
 
 <hr><br>
-
-    OrderService kısmında katmanlı mimarimizi oluşturduktan sonra application.properties kısmımızı düzenledik. 
+    * Öncelikli olarak Model packageımız içerisinde Order ve OrderLineItems entitylerimizi oluşturuyoruz ve OneToMany ilişkimizi 
+    Order içerisice cascade type.ALL ile ayarlıyoruz.
+    * OrderService kısmında katmanlı mimarimizi oluşturduktan sonra application.properties kısmımızı düzenledik. 
     Aynı proje içinde farklı modüllerde çalıştığımız için ilk etapta server.port kısmında localhost port değişikliği
     yapıp, akabinde burda PostgreSQL kullanacağımız için bununla alakalı properties eklentilerimizi yaptık.
 
