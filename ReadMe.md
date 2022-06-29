@@ -49,7 +49,8 @@ GET methodu ile gönderdiğimiz ürüne id'si ile birlikte ulaşabiliyoruz.
 
 <br>
 
-
+    Product bölümümüz için testlerimizi yapabilmek adına pom.xml kısmına Testcontainers ve junit ekleyip,
+    test bölümümüzde Product için Integration test yazıldı.
 
 
 
