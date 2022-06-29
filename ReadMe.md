@@ -47,6 +47,11 @@ GET methodu ile gönderdiğimiz ürüne id'si ile birlikte ulaşabiliyoruz.
 ![4](https://user-images.githubusercontent.com/96151920/176445849-e5c56702-5e6c-4de9-bbc5-91c432f5d518.JPG)
 
 
+<br>
+
+
+
+
 
 ## Teknolojiler
 
@@ -55,3 +60,5 @@ GET methodu ile gönderdiğimiz ürüne id'si ile birlikte ulaşabiliyoruz.
 * Postman
 * MongoDb
 * Docker
+* Testcontainers
+* Spring Security 
