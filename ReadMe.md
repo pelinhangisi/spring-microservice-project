@@ -17,3 +17,9 @@
     * Order Service (PostgreSQL)
     * Order Service ile Notification Service arasındaki ilişli Asenkron olacak. (RabbitMQ)
     * Order Service ile Inverntory Service arasındaki ilişli Senkronize olacak. (PostgreSQL)
+
+<hr> <br>
+
+* Katmanlı Mimari tabanları oluşturuldu. 
+  * Model -> Product
+  * Dao -> ProductRepository 
