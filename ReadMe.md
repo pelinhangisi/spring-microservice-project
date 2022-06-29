@@ -29,6 +29,19 @@
 
 <hr><br>
 
+Product PostMapping ve GetMapping endpointler oluşturulduktan sonra Docker aracılığı ile MongoDB Compass ayağa kaldırılıp database oluşturuldu ve Postman ile GET ve POST istekleri test edildi. <br>
+
+GET methodu ile gönderildiğinde console kısmımızda "Bu id" deki ürün kaydedildi mesajını aldığımız görünmektedir.
+
+![3](https://user-images.githubusercontent.com/96151920/176445459-55fead6c-94a0-44f0-a183-b166ca5405e2.JPG)
+
+
+POST methodu ile gönderdiğimiz ürüne id'si ile birlikte ulaşabiliyoruz. 
+
+![4](https://user-images.githubusercontent.com/96151920/176445849-e5c56702-5e6c-4de9-bbc5-91c432f5d518.JPG)
+
+
+
 ## Teknolojiler
 
 * Java
