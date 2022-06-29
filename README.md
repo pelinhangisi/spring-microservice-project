@@ -65,13 +65,15 @@ GET methodu ile gönderdiğimiz ürüne id'si ile birlikte ulaşabiliyoruz.
 ## ORDER-SERVICE
 
 * OrderService İçin Katmanlı Mimari tabanları oluşturuldu. 
-  * Model -> Order
+  * Model -> Order - OrderLineItems
   * Dao -> OrderRepository 
   * Dto -> OrderRequest
   * Controller -> OrderController
   * Service -> OrderService 
 
 <hr><br>
+
+     * Öncelikli olarak Model packageımız içerisinde Order ve OrderLineItems entitylerimizi oluşturuyoruz ve OneToMany ilişkimizi Order içerisice cascade type ile ayarlıyoruz 
 
 
 
