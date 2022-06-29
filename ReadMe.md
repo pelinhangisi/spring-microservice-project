@@ -23,3 +23,5 @@
 * Katmanlı Mimari tabanları oluşturuldu. 
   * Model -> Product
   * Dao -> ProductRepository 
+  * Dto -> ProductRequest
+  * Controller -> ProductController
