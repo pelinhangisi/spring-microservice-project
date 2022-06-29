@@ -26,3 +26,13 @@
   * Dto -> ProductRequest
   * Controller -> ProductController
   * Service -> ProductService 
+
+<hr><br>
+
+## Teknolojiler
+
+* Java
+* Java SpringBoot
+* Postman
+* MongoDb
+* Docker
