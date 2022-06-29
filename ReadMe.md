@@ -52,6 +52,11 @@ GET methodu ile gönderdiğimiz ürüne id'si ile birlikte ulaşabiliyoruz.
     Product bölümümüz için testlerimizi yapabilmek adına pom.xml kısmına Testcontainers ve junit ekleyip,
     test bölümümüzde Product için Integration test yazıldı.
 
+    * İlk etapta @TestContainers,@AutoConfigureMockMvc ve yazdığımız mongodbcontainerı için @Container ve 
+    @DynamicPropertySource anatasyonları kullandık
+    * Daha sonra test mongodb containerı vermiş olduğumuz mongodb version ile başlayıp replicaSetUrl alıp dynamic olarak 
+    ayarlanacak şekilde oluşturduğumuz property ile test edilecek. 
+
 
 
 ## Teknolojiler

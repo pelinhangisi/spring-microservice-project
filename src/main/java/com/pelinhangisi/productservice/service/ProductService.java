@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.stream.Collectors;
 
+
 @Service
 @RequiredArgsConstructor // ihtiyacımız olan bütün contructor methodlarını arka planda oluşturan anatasyon
 @Slf4j // log oluşturmamızı ve info vermemizi sağlayan anatasyon
@@ -37,7 +38,7 @@ public class ProductService {
     public List<ProductResponse> getAllProducts() {
         List<Product> products = productRepository.findAll();
 
-        //Lambda metodu ile yazıldı.
+        //Lambda methodu ile yazıldı.
         return products.stream().map(this::mapToProductResponse).collect(Collectors.toList());
     }
 
