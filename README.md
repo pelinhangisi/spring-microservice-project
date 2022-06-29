@@ -73,8 +73,8 @@ GET methodu ile gönderdiğimiz ürüne id'si ile birlikte ulaşabiliyoruz.
 
 <hr><br>
 
-     * Öncelikli olarak Model packageımız içerisinde Order ve OrderLineItems entitylerimizi oluşturuyoruz ve OneToMany ilişkimizi Order içerisice cascade type 
-     ile ayarlıyoruz 
+     * Öncelikli olarak Model packageımız içerisinde Order ve OrderLineItems entitylerimizi oluşturuyoruz ve OneToMany ilişkimizi 
+     Order içerisice cascade type.ALL ile ayarlıyoruz.
 
 
 
