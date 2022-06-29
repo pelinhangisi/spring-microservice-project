@@ -37,12 +37,12 @@ Product PostMapping ve GetMapping endpointler oluşturulduktan sonra Docker arac
 ![5](https://user-images.githubusercontent.com/96151920/176447320-ad50b437-8ac5-4600-93aa-dca5fb9665e7.JPG)
 
 
-GET methodu ile gönderildiğinde console kısmımızda "Bu id" deki ürün kaydedildi mesajını aldığımız görünmektedir.
+POST methodu ile gönderildiğinde console kısmımızda "Bu id" deki ürün kaydedildi mesajını aldığımız görünmektedir.
 
 ![3](https://user-images.githubusercontent.com/96151920/176445459-55fead6c-94a0-44f0-a183-b166ca5405e2.JPG)
 
 
-POST methodu ile gönderdiğimiz ürüne id'si ile birlikte ulaşabiliyoruz. 
+GET methodu ile gönderdiğimiz ürüne id'si ile birlikte ulaşabiliyoruz. 
 
 ![4](https://user-images.githubusercontent.com/96151920/176445849-e5c56702-5e6c-4de9-bbc5-91c432f5d518.JPG)
 
