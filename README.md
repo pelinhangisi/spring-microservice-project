@@ -72,11 +72,21 @@ GET methodu ile gönderdiğimiz ürüne id'si ile birlikte ulaşabiliyoruz.
   * Service -> OrderService 
 
 <hr><br>
+
+
     * Öncelikli olarak Model packageımız içerisinde Order ve OrderLineItems entitylerimizi oluşturuyoruz ve OneToMany ilişkimizi 
     Order içerisice cascade type.ALL ile ayarlıyoruz. <br>
     * OrderService kısmında katmanlı mimarimizi oluşturduktan sonra application.properties kısmımızı düzenledik. 
     Aynı proje içinde farklı modüllerde çalıştığımız için ilk etapta server.port kısmında localhost port değişikliği
     yapıp, akabinde burda PostgreSQL kullanacağımız için bununla alakalı properties eklentilerimizi yaptık.
+    
+   <br>
+    
+   ![7](https://user-images.githubusercontent.com/96151920/176557009-3d63878d-a668-48c5-b2f0-df6c7a208e3b.JPG) 
+   <br><br>
+   ![8](https://user-images.githubusercontent.com/96151920/176557209-1db65549-61e8-445b-b541-e2dba469fdf9.JPG)
+
+
 
 
 
@@ -88,6 +98,7 @@ GET methodu ile gönderdiğimiz ürüne id'si ile birlikte ulaşabiliyoruz.
 * Java SpringBoot
 * Postman
 * MongoDb
+* PostgreSQL
 * Docker
 * Testcontainers
 * Spring Security 
