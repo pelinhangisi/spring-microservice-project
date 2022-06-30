@@ -85,8 +85,9 @@ GET methodu ile gönderdiğimiz ürüne id'si ile birlikte ulaşabiliyoruz.
    ![7](https://user-images.githubusercontent.com/96151920/176557009-3d63878d-a668-48c5-b2f0-df6c7a208e3b.JPG) 
    <br><br>
    ![8](https://user-images.githubusercontent.com/96151920/176557209-1db65549-61e8-445b-b541-e2dba469fdf9.JPG)
-
-
+   
+   
+   ![9](https://user-images.githubusercontent.com/96151920/176566744-31b3d8b2-5ce5-4d58-ab70-bc88e78788f8.JPG)
 
 
 
