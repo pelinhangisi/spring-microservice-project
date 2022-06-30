@@ -1,7 +1,7 @@
 package com.pelinhangisi.orderservice.dto;
 
 
-import com.pelinhangisi.orderservice.model.OrderLineItems;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
