@@ -5,11 +5,12 @@ import com.pelinhangisi.inventoryservice.model.Inventory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 import org.springframework.context.annotation.Bean;
 
 
-@SpringBootApplication
 
+@SpringBootApplication
 public class InventoryServiceApplication {
 
     public static void main(String[] args) {
@@ -25,8 +26,8 @@ public class InventoryServiceApplication {
             inventory.setQuantity(100);
 
             Inventory inventory1 = new Inventory();
-            inventory.setSkuCode("iphone_13_red");
-            inventory.setQuantity(0);
+            inventory1.setSkuCode("iphone_13_red");
+            inventory1.setQuantity(0);
 
             inventoryRepository.save(inventory);
             inventoryRepository.save(inventory1);

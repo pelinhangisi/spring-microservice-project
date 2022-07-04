@@ -6,12 +6,11 @@ import lombok.*;
 import javax.persistence.*;
 
 @Entity
-@Data
 @Table(name = "t_inventory")
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 public class Inventory {
 
     @Id
