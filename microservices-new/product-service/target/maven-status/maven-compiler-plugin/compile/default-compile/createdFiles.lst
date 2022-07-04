@@ -1,0 +1,10 @@
+com\pelinhangisi\productservice\dao\ProductRepository.class
+com\pelinhangisi\productservice\dto\ProductRequest$ProductRequestBuilder.class
+com\pelinhangisi\productservice\model\Product$ProductBuilder.class
+com\pelinhangisi\productservice\service\ProductService.class
+com\pelinhangisi\productservice\ProductServiceApplication.class
+com\pelinhangisi\productservice\dto\ProductRequest.class
+com\pelinhangisi\productservice\dto\ProductResponse$ProductResponseBuilder.class
+com\pelinhangisi\productservice\controller\ProductController.class
+com\pelinhangisi\productservice\dto\ProductResponse.class
+com\pelinhangisi\productservice\model\Product.class

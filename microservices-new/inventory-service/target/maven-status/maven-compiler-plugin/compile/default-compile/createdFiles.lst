@@ -1,0 +1,7 @@
+com\pelinhangisi\inventoryservice\model\Inventory.class
+com\pelinhangisi\inventoryservice\dao\InventoryRepository.class
+com\pelinhangisi\inventoryservice\Controller\InventoryController.class
+com\pelinhangisi\inventoryservice\dto\InventoryResponse$InventoryResponseBuilder.class
+com\pelinhangisi\inventoryservice\dto\InventoryResponse.class
+com\pelinhangisi\inventoryservice\InventoryServiceApplication.class
+com\pelinhangisi\inventoryservice\service\InventoryService.class
